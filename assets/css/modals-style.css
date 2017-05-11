@@ -1,0 +1,12 @@
+.btn-fullsize { width: 100%; }
+
+.question { min-height: 100px; font-size: 72pt; text-align: center; }
+
+.guess-who { background-color: #dae3ea; }
+.know-me { background-color: #8d9e8e; color: white; }
+.words { background-color: #e6daea; color: #666; }
+.phrases { background-color: ; }
+
+.tcenter { text-align: center; }
+.point-answer { text-align: center; cursor: pointer; font-size: 16pt; }
+.table-tips { text-align: center; display: none; }
