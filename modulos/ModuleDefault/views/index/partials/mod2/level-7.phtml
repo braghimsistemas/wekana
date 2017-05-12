@@ -1,0 +1,53 @@
+<script type="text/javascript" src="assets/js/mod2/level-7.js"></script>
+
+<div class="col-sm-3">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <h4>Level 7 <small>Words About <b>Professions</b></small></h4>
+      <hr/>
+      <a class="thumbnail">
+        <img class="featurette-image img-responsive center-block" data-src="holder.js/250x250/auto" alt="Level 1">
+      </a>
+      <button type="button" class="btn btn-fullsize btn-success" data-toggle="modal" data-target="#modalMod2Level7">
+        <i class="fa fa-play"></i> Let's Begin
+      </button>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modalMod2Level7">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4>
+            Find the Romaji
+            <br/>
+            <small>
+              You will know some words written in japanese and it's meaning, just find out how to pronounce it
+              with Romaji, practice as much as you can, next one will be about complete phrases.
+            </small>
+          </h4>
+          <div class="well well-sm">
+            <i class="fa fa-info"></i> At first we won't show the hiragana symbols to force your memory,
+            but when you can't remember any way, just press <i>back space</i> to show it.
+          </div>
+          <div class="thumbnail words tcenter" id="mod2level7-question" style="font-size: 16pt;">
+            <p id="mod2level7-question-mean"></p>
+            <hr/>
+            <p id="mod2level7-question-hiragana"></p>
+            <hr/>
+            <p id="mod2level7-question-romaji"></p>
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon">Romaji</span>
+            <input type="text" class="form-control tcenter" id="mod2level7-answere" placeholder="Insert your answere" />
+          </div>
+          <br/>
+          <button type="button" class="btn btn-danger btn-xs pull-right" id="mod2level7-btn-tips"><i class="fa fa-comments"></i> Tips</button>
+          <div class="clearfix"></div>
+          <div class="row" id="mod2level7-tips" style="display: none; text-align: center;"></div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
+
