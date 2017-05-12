@@ -1,0 +1,45 @@
+<script type="text/javascript" src="assets/js/mod1/level-2.js"></script>
+
+<div class="col-sm-3">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <h4>Level 2 <small>Guess who?</small></h4>
+      <hr/>
+      <a class="thumbnail">
+        <img class="featurette-image img-responsive center-block" data-src="holder.js/250x250/auto" alt="Level 1">
+      </a>
+      <button type="button" class="btn btn-fullsize btn-success" data-toggle="modal" data-target="#modalMod1Level2">
+        <i class="fa fa-play"></i> Começar
+      </button>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modalMod1Level2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4>
+            Practice Hiragana Sounds (Romaji)
+            <br/>
+            <small>
+              Now that you already know the basic hiragana symbols, let's practice their sounds. To these "sounds"
+              we call <i>Romaji</i>.
+            </small>
+          </h4>
+          <hr/>
+          <div class="thumbnail question guess-who" id="mod1level2-question"></div>
+          <div class="row" id="mod1level2-answer">
+            <div class="col-xs-6"><span class="thumbnail point-answer" data-key="0"></span></div>
+            <div class="col-xs-6"><span class="thumbnail point-answer" data-key="1"></span></div>
+            <div class="col-xs-6"><span class="thumbnail point-answer" data-key="2"></span></div>
+            <div class="col-xs-6"><span class="thumbnail point-answer" data-key="3"></span></div>
+          </div><!-- /.row -->
+
+          <div class="row">
+            <div class="col-xs-12 text-right">Score: <span id="mod1level2-pnts">0</span></div>
+          </div>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>

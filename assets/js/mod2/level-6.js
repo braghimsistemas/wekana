@@ -274,7 +274,7 @@ $(function() {
 
         //**/
     ].sort(function() {
-        return .5 - Math.random();
+        return 0.5 - Math.random();
     });
     
     // Dicas
